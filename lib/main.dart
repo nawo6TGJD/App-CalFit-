@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           SizedBox(height: 40.0),
           Container(
-            height: MediaQuery.of(context).size.height - 185.0,
+            height: MediaQuery.of(context).size.height - 186.0,
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.only(topLeft: Radius.circular(75.0)),
