@@ -92,10 +92,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Container(
                         height: MediaQuery.of(context).size.height - 300.0,
                         child: ListView(children: [
-                          _buildFoodItem('assets/plate1.png', 'Salmon bowl', '\$24.00'),
+                          _buildFoodItem('assets/plate1.png', 'Macaroni bowl', '\$24.00'),
                           _buildFoodItem('assets/plate2.png', 'Spring bowl', '\$22.00'),
                           _buildFoodItem('assets/plate6.png', 'Avocado bowl', '\$26.00'),
-                          _buildFoodItem('assets/plate5.png', 'Berry bowl', '\$24.00')
+                          _buildFoodItem('assets/plate5.png', 'Egg salad bowl', '\$24.00')
                         ]))),
                     Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
