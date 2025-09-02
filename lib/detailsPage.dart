@@ -219,7 +219,7 @@ class _DetailsPageState extends State<DetailsPage> {
               child: Text(cardTitle,
                   style: TextStyle(
                     fontFamily: 'Montserrat',
-                    fontSize: 12.0,
+                    fontSize: 16.0,
                     color:
                         cardTitle == selectedCard ? Colors.white : Colors.grey.withOpacity(0.7),
                   )),
