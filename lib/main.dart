@@ -88,16 +88,20 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: EdgeInsets.only(left: 25.0, right: 20.0),
               children: <Widget>[
                 Padding(
-                    padding: EdgeInsets.only(top: 45.0),
+                    padding: EdgeInsets.only(top: 40.0),
                     child: Container(
                         height: MediaQuery.of(context).size.height - 300.0,
                         child: ListView(children: [
-                          _buildFoodItem('assets/plate1.png', 'Macaroni bowl', '\$24.00'),
-                          _buildFoodItem('assets/plate2.png', 'Spring bowl', '\$22.00'),
-                          _buildFoodItem('assets/plate6.png', 'Sushi bowl', '\$26.00'),
-                          _buildFoodItem('assets/plate5.png', 'Egg salad bowl', '\$24.00')
+                          _buildFoodItem(
+                              'assets/plate1.png', 'Macaroni bowl', '\$24.00'),
+                          _buildFoodItem(
+                              'assets/plate2.png', 'Spring bowl', '\$22.00'),
+                          _buildFoodItem(
+                              'assets/plate6.png', 'Sushi bowl', '\$26.00'),
+                          _buildFoodItem(
+                              'assets/plate5.png', 'Egg salad bowl', '\$24.00')
                         ]))),
-                    Row(
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     Container(
@@ -159,58 +163,44 @@ class _MyHomePageState extends State<MyHomePage> {
     return Padding(
         padding: EdgeInsets.only(left: 10.0, right: 10.0, top: 10.0),
         child: InkWell(
-          onTap: () {
-            Navigator.of(context).push(MaterialPageRoute(
-              builder: (context) => DetailsPage(heroTag: imgPath, foodName: foodName, foodPrice: price)
-            ));
-          },
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Container(
-                child: Row(
-                  children: [
-                    Hero(
+            onTap: () {
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => DetailsPage(
+                      heroTag: imgPath, foodName: foodName, foodPrice: price)));
+            },
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                Container(
+                    child: Row(children: [
+                  Hero(
                       tag: imgPath,
                       child: Image(
-                        image: AssetImage(imgPath),
-                        fit: BoxFit.cover,
-                        height: 75.0,
-                        width: 75.0
-                      )
-                    ),
-                    SizedBox(width: 10.0),
-                    Column(
+                          image: AssetImage(imgPath),
+                          fit: BoxFit.cover,
+                          height: 75.0,
+                          width: 75.0)),
+                  SizedBox(width: 10.0),
+                  Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children:[
-                        Text(
-                          foodName,
-                          style: TextStyle(
-                            fontFamily: 'Montserrat',
-                            fontSize: 17.0,
-                            fontWeight: FontWeight.bold
-                          )
-                        ),
-                        Text(
-                          price,
-                          style: TextStyle(
-                            fontFamily: 'Montserrat',
-                            fontSize: 15.0,
-                            color: Colors.grey
-                          )
-                        )
-                      ]
-                    )
-                  ]
-                )
-              ),
-              IconButton(
-                icon: Icon(Icons.add),
-                color: Colors.black,
-                onPressed: () {}
-              )
-            ],
-          )
-        ));
+                      children: [
+                        Text(foodName,
+                            style: TextStyle(
+                                fontFamily: 'Montserrat',
+                                fontSize: 17.0,
+                                fontWeight: FontWeight.bold)),
+                        Text(price,
+                            style: TextStyle(
+                                fontFamily: 'Montserrat',
+                                fontSize: 15.0,
+                                color: Colors.grey))
+                      ])
+                ])),
+                IconButton(
+                    icon: Icon(Icons.add),
+                    color: Colors.black,
+                    onPressed: () {})
+              ],
+            )));
   }
 }
