@@ -119,7 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ),
                     Container(
-                      height: 65.0,
+                      height: 60.0,
                       width: 60.0,
                       decoration: BoxDecoration(
                         border: Border.all(
