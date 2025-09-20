@@ -112,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             color: Colors.black,
                             style: BorderStyle.solid,
                             width: 1.0),
-                        borderRadius: BorderRadius.circular(10.0),
+                        borderRadius: BorderRadius.circular(30.0),
                       ),
                       child: Center(
                         child: Icon(Icons.search, color: Colors.blue),
