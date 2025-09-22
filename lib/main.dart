@@ -111,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         border: Border.all(
                             color: Colors.black,
                             style: BorderStyle.solid,
-                            width: 1.0),
+                            width: 8.0),
                         borderRadius: BorderRadius.circular(30.0),
                       ),
                       child: Center(
@@ -129,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10.0),
                       ),
                       child: Center(
-                        child: Icon(Icons.shopping_basket, color: Colors.black),
+                        child: Icon(Icons.hashCode, color: Colors.black),
                       ),
                     ),
                     Container(
