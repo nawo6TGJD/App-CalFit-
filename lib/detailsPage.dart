@@ -202,9 +202,9 @@ class _DetailsPageState extends State<DetailsPage> {
               border: Border.all(
                   color: cardTitle == selectedCard
                       ? Colors.transparent
-                      : Colors.grey.withOpacity(0.3),
+                      : Colors.grey.withOpacity(0.9),
                   style: BorderStyle.solid,
-                  width: 0.75),
+                  width: 0.05),
             ),
             height: 95.0,
             width: 95.0,
