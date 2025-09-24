@@ -147,7 +147,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               style: TextStyle(
                                   fontFamily: 'Montserrat',
                                   color: Colors.white,
-                                  fontSize: 15.0))),
+                                  fontSize: 19.0))),
                     )
                   ],
                 )
