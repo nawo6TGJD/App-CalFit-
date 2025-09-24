@@ -134,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     Container(
                       height: 65.0,
-                      width: 120.0,
+                      width: 100.0,
                       decoration: BoxDecoration(
                           border: Border.all(
                               color: Colors.grey,
