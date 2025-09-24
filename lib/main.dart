@@ -142,12 +142,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               width: 1.0),
                           borderRadius: BorderRadius.circular(10.0),
                           color: Color(0xFF1C1428)),
-                      child: Center(
-                          child: Text('Checkout',
-                              style: TextStyle(
-                                  fontFamily: 'Montserrat',
-                                  color: Colors.white,
-                                  fontSize: 19.0))),
+                     
                     )
                   ],
                 )
