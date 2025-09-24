@@ -125,11 +125,11 @@ class _MyHomePageState extends State<MyHomePage> {
                         border: Border.all(
                             color: Colors.grey,
                             style: BorderStyle.solid,
-                            width: 1.0),
-                        borderRadius: BorderRadius.circular(10.0),
+                            width: 9.0),
+                        borderRadius: BorderRadius.circular(19.0),
                       ),
                       child: Center(
-                        child: Icon(Icons.hashCode, color: Colors.black),
+                        child: Icon(Icons.hashCode, color: Colors.red),
                       ),
                     ),
                     Container(
