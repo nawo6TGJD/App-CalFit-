@@ -70,9 +70,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 SizedBox(width: 10.0),
                 Text('Food',
                     style: TextStyle(
-                        fontFamily: 'Montserrat',
+                 
                         color: Colors.white,
-                        fontSize: 25.0))
+                        fontSize: 29.0))
               ],
             ),
           ),
