@@ -99,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           _buildFoodItem(
                               'assets/plate6.png', 'Sushi bowl', '\$26.00'),
                           _buildFoodItem(
-                              'assets/plate5.png', 'Egg salad bowl', '\$24.00')
+                              'assets/plate5.png', 'chiken bowl', '\$24.00')
                         ]))),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
