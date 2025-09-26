@@ -198,7 +198,7 @@ class _DetailsPageState extends State<DetailsPage> {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10.0),
               color:
-                  cardTitle == selectedCard ? Color(0xFF7A9BEE) : Colors.white,
+                  cardTitle == selectedCard ? Color(0xFF7A9BEE) : Colors.blue,
               border: Border.all(
                   color: cardTitle == selectedCard
                       ? Colors.transparent
