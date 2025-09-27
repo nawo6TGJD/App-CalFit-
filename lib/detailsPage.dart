@@ -206,8 +206,8 @@ class _DetailsPageState extends State<DetailsPage> {
                   style: BorderStyle.solid,
                   width: 0.05),
             ),
-            height: 95.0,
-            width: 95.0,
+            height: 100.0,
+            width: 100.0,
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
