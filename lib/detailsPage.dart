@@ -220,7 +220,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           fontSize: 19.0,
                           color: cardTitle == selectedCard
                               ? Colors.white
-                              : Colors.grey.withOpacity(0.7),
+                              : Colors.grey.withOpacity(0.6),
                         )),
                   ),
                   Padding(
