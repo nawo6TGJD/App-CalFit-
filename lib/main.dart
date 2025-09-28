@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             child: ListView(
               primary: false,
-              padding: EdgeInsets.only(left: 40.0, right: 20.0),
+              padding: EdgeInsets.only(left: 45.0, right: 10.0),
               children: <Widget>[
                 Padding(
                     padding: EdgeInsets.only(top: 40.0),
