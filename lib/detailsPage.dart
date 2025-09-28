@@ -219,7 +219,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           fontFamily: 'Montserrat',
                           fontSize: 19.0,
                           color: cardTitle == selectedCard
-                              ? Colors.white
+                              ? Colors.red
                               : Colors.grey.withOpacity(0.6),
                         )),
                   ),
