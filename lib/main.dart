@@ -156,7 +156,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Widget _buildFoodItem(String imgPath, String foodName, String price) {
     return Padding(
-        padding: EdgeInsets.only(left: 10.0, right: 10.0, top: 10.0),
+        padding: EdgeInsets.only(left: 14.0, right: 16.0, top: 23.0),
         child: InkWell(
             onTap: () {
               Navigator.of(context).push(MaterialPageRoute(
@@ -175,7 +175,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           fit: BoxFit.cover,
                           height: 75.0,
                           width: 75.0)),
-                  SizedBox(width: 10.0),
+                  SizedBox(width: 30.0),
                   Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
