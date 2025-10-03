@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: <Widget>[
                     Container(
                       height: 65.0,
-                      width: 60.0,
+                      width: 30.0,
                       decoration: BoxDecoration(
                         border: Border.all(
                             color: Colors.black,
