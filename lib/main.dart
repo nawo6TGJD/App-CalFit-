@@ -175,7 +175,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           fit: BoxFit.cover,
                           height: 75.0,
                           width: 75.0)),
-                  SizedBox(width: 30.0),
+                  SizedBox(width: 3  0.0),
                   Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
