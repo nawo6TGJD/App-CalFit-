@@ -220,11 +220,11 @@ class _DetailsPageState extends State<DetailsPage> {
                           fontSize: 19.0,
                           color: cardTitle == selectedCard
                               ? Colors.red
-                              : Colors.grey.withOpacity(0.6),
+                              : Colors.grey.withOpacity(0.7),
                         )),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 15.0, bottom: 8.0),
+                    padding: const EdgeInsets.only(left: 16.0, bottom: 8.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
