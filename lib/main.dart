@@ -188,7 +188,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             style: TextStyle(
                                 fontFamily: 'Montserrat',
                                 fontSize: 15.0,
-                                color: Colors.grey))
+                                color: Colors.white))
                       ])
                 ])),
                 IconButton(
