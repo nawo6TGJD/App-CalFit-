@@ -217,9 +217,9 @@ class _DetailsPageState extends State<DetailsPage> {
                     child: Text(cardTitle,
                         style: TextStyle(
                           fontFamily: 'Montserrat',
-                          fontSize: 20.0,
+                          fontSize: 26.0,
                           color: cardTitle == selectedCard
-                              ? Colors.red
+                              ? Colors.pink
                               : Colors.grey.withOpacity(0.7),
                         )),
                   ),
