@@ -174,7 +174,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           image: AssetImage(imgPath),
                           fit: BoxFit.cover,
                           height: 78.0,
-                          width: 78.0)),
+                          width: 79.0)),
                   SizedBox(width: 3  0.0),
                   Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
