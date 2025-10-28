@@ -153,11 +153,11 @@ class _DetailsPageState extends State<DetailsPage> {
                           scrollDirection: Axis.horizontal,
                           children: <Widget>[
                             _buildInfoCard('WEIGHT', '340', 'G'),
-                            SizedBox(width: 10.0),
+                            SizedBox(width: 15.0),
                             _buildInfoCard('CALORIES', '217', 'CAL'),
-                            SizedBox(width: 10.0),
+                            SizedBox(width: 15.0),
                             _buildInfoCard('VITAMINS', 'A, B6', 'VIT'),
-                            SizedBox(width: 10.0),
+                            SizedBox(width: 15.0),
                             _buildInfoCard('AVAIL', 'NO', 'AV')
                           ],
                         )),
