@@ -242,7 +242,7 @@ class _DetailsPageState extends State<DetailsPage> {
                               fontSize: 17.0,
                               color: cardTitle == selectedCard
                                   ? Colors.white
-                                  : Colors.red,
+                                  : Colors.pink,
                             ))
                       ],
                     ),
