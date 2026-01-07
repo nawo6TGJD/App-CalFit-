@@ -182,7 +182,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         Text(foodName,
                             style: TextStyle(
                                 fontFamily: 'Montserrat',
-                                fontSize: 17.0,
+                                fontSize: 14.0,
                                 fontWeight: FontWeight.bold)),
                         Text(price,
                             style: TextStyle(
